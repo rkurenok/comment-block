@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="files/font-awesome-4.7.0/css/font-awesome.min.css?_v=20230317114643">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230317114643">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&_v=20230317114643" />
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header></header>
+        <main>
+            <div class="comments">
+                <div class="container">
+                    <div class="comments__header">
+                        <h2 class="comments__header-title"><span class="material-symbols-outlined">chat_bubble</span>Комментарии</h2>
+                        <div class="comments__count"><span></span></div>
+                    </div>
+                    <div class="comments__body">
+                        <div class="posts">
+                            <div class="textarea">
+                                <form action="#" class="form" id="addPost" name="addPost">
+                                    <div class="postbox">
+                                        <span class="error"></span>
+                                        <div class="textarea-wrapper">
+                                            <div>
+                                                <textarea class="textarea-text" placeholder="Присоединиться к обсуждению..." name="text"></textarea>
+                                            </div>
+                                            <div class="post-actions">
+                                                <button type="submit" class="btn post-actions__button">Comment</button>
+                                            </div>
+                                        </div>
+                                        <div class="postbox__info">
+                                            <div class="date-time post-info">
+                                                <span class="error"></span>
+                                                <div>
+                                                    <p class="input-wrapper">
+                                                        <input type="text" placeholder="Дата" name="display_date"
+                                                            maxlength="30" class="input-text" aria-label="name">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="user-name post-info">
+                                                <span class="error"></span>
+                                                <div>
+                                                    <p class="input-wrapper">
+                                                        <input type="text" placeholder="Имя" name="display_name"
+                                                            maxlength="30" class="input-text">
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="js/app.min.js?_v=20230317114643"></script>
+</body>
+
+</html>
